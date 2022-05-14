@@ -34,9 +34,7 @@ Users should be able to:
 
 ### Built with
 
-- Tailwindcss
-- Vanilla JS
-- Mobile-first workflow
+- [Tailwindcss](https://tailwindcss.com/) - CSS framework
 
 ### What I learned
 
