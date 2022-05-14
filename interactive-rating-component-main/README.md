@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Raam4/FE-Mentor-Challenges/tree/main/interactive-rating-component-main)
+- Live Site URL: [Live Site](https://friendly-sunflower-cc83a4.netlify.app/)
 
 ## My process
 
@@ -54,5 +54,5 @@ I did this challenge after watching one of Traversy Media's videos about Tailwin
 ## Author
 
 - Website - [Raam4](https://portfolio-rcardozo.web.app)
-- Frontend Mentor - [@Raam4](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Raam4](https://www.frontendmentor.io/profile/Raam4)
 - Twitter - [@rammicardozo](https://www.twitter.com/rammicardozo)
