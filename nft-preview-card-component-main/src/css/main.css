@@ -501,16 +501,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
-.ml-2{
-  margin-left: 0.5rem;
-}
-
 .mb-6{
   margin-bottom: 1.5rem;
 }
 
-.mt-4{
-  margin-top: 1rem;
+.ml-2{
+  margin-left: 0.5rem;
 }
 
 .ml-4{
@@ -525,16 +521,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-screen{
   height: 100vh;
 }
 
 .h-full{
   height: 100%;
-}
-
-.h-64{
-  height: 16rem;
 }
 
 .h-80{
@@ -545,36 +541,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 80%;
 }
 
-.w-24{
-  width: 6rem;
-}
-
-.w-20{
-  width: 5rem;
-}
-
-.w-16{
-  width: 4rem;
-}
-
-.w-12{
-  width: 3rem;
-}
-
-.w-8{
-  width: 2rem;
-}
-
 .w-10{
   width: 2.5rem;
-}
-
-.w-64{
-  width: 16rem;
-}
-
-.w-80{
-  width: 20rem;
 }
 
 .max-w-\[375px\]{
@@ -603,10 +571,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-self-end{
   justify-self: end;
-}
-
-.justify-self-center{
-  justify-self: center;
 }
 
 .overflow-hidden{
@@ -645,26 +609,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(216 50% 16% / var(--tw-bg-opacity));
 }
 
-.bg-lineDarkBlue{
-  --tw-bg-opacity: 1;
-  background-color: hsl(215 32% 27% / var(--tw-bg-opacity));
-}
-
-.bg-cyan{
-  --tw-bg-opacity: 1;
-  background-color: hsl(178 100% 50% / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\.\/images\/image-equilibrium\.jpg\'\)\]{
-  background-image: url('./images/image-equilibrium.jpg');
-}
-
-.bg-\[url\(\'\/images\/image-equilibrium\.jpg\'\)\]{
-  background-image: url('/images/image-equilibrium.jpg');
-}
-
-.bg-\[url\(\'\.images\/image-equilibrium\.jpg\'\)\]{
-  background-image: url('.images/image-equilibrium.jpg');
+.bg-cyan\/75{
+  background-color: hsl(178 100% 50% / 0.75);
 }
 
 .bg-\[url\(\'\.\.\/images\/image-equilibrium\.jpg\'\)\]{
@@ -689,21 +635,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
-.text-\[15px\]{
-  font-size: 15px;
-}
-
 .text-\[18px\]{
   font-size: 18px;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.font-semibold{
-  font-weight: 600;
 }
 
 .font-medium{
@@ -712,6 +645,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-thin{
   font-weight: 100;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .text-white{
@@ -729,11 +666,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: hsl(178 100% 50% / var(--tw-text-opacity));
 }
 
-.text-lineDarkBlue{
-  --tw-text-opacity: 1;
-  color: hsl(215 32% 27% / var(--tw-text-opacity));
-}
-
 .opacity-0{
   opacity: 0;
 }
@@ -748,29 +680,33 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 300ms;
 }
 
+.hover\:flex:hover{
+  display: flex;
+}
+
+.hover\:bg-cyan\/70:hover{
+  background-color: hsl(178 100% 50% / 0.7);
+}
+
+.hover\:bg-cyan\/75:hover{
+  background-color: hsl(178 100% 50% / 0.75);
+}
+
+.hover\:bg-cyan\/50:hover{
+  background-color: hsl(178 100% 50% / 0.5);
+}
+
 .hover\:text-cyan:hover{
   --tw-text-opacity: 1;
   color: hsl(178 100% 50% / var(--tw-text-opacity));
 }
 
-.hover\:opacity-100:hover{
-  opacity: 1;
-}
-
-.hover\:opacity-50:hover{
-  opacity: 0.5;
-}
-
-.hover\:opacity-75:hover{
-  opacity: 0.75;
-}
-
-.hover\:opacity-60:hover{
-  opacity: 0.6;
-}
-
 .hover\:opacity-70:hover{
   opacity: 0.7;
+}
+
+.hover\:opacity-100:hover{
+  opacity: 1;
 }
 
 .active\:text-cyan:active{
