@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Frontend Mentor | NFT preview card component</title>
+</head>
+
+<body class="bg-mainDarkBlue h-screen">
+  <div class="flex flex-col items-center justify-center h-full">
+    <div class="w-4/5 px-6 rounded-xl overflow-hidden shadow-lg bg-cardDarkBlue max-w-[375px]">
+      <div class="rounded-xl h-80 relative mt-6">
+        <div class="absolute inset-0 bg-cover bg-center z-0 rounded-xl bg-[url('../images/image-equilibrium.jpg')]"></div>
+        <a href="" class="opacity-0 bg-cyan hover:opacity-70 rounded-xl duration-300 absolute inset-0 z-10 flex justify-center items-center">
+          <img src="./images/icon-view.svg" alt="">
+        </a>
+      </div>
+      <a href=""><h1 class="text-2xl text-white font-medium mt-6 mb-4 hover:text-cyan active:text-cyan">Equilibrium #3429</h1></a>
+      <p class="text-softBlue text-[18px] font-thin mb-4">Our Equilibrium collection promotes balance and calm.</p>
+
+      <div class="grid grid-cols-2 mb-6 text-[18px]">
+        <div class="flex flex-inline items-center justify-self-start">
+          <img src="./images/icon-ethereum.svg" alt="">
+          <p class="ml-2 text-cyan font-semibold">0.041 ETH</p>
+        </div>
+        <div class="flex flex-inline items-center justify-self-end">
+          <img src="./images/icon-clock.svg">
+          <p class="ml-2 text-softBlue">3 days left</p>
+        </div>
+      </div>
+
+      <hr class="border-lineDarkBlue mb-4">
+
+      <div class="flex flex-inline items-center mb-6">
+        <img class="w-10 rounded-full border-2 border-white" src="./images/image-avatar.png" alt="">
+        <p class="ml-4 text-softBlue font-thin">Creation of <a href="" class="text-white hover:text-cyan active:text-cyan">Jules Wyvern</a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  0.041 ETH
+  3 days left
+
+  Creation of Jules Wyvern
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
