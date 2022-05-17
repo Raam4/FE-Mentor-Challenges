@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Github](https://github.com/Raam4/FE-Mentor-Challenges/tree/main/order-summary-component-main)
+- Live Site URL: [Live Site](https://jade-donut-85d03f.netlify.app/)
 
 ## My process
 
