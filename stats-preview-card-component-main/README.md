@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Raam4/FE-Mentor-Challenges/tree/main/)
-- Live Site URL: [Live Site]()
+- Solution URL: [Github](https://github.com/Raam4/FE-Mentor-Challenges/tree/main/stats-preview-card-component-main)
+- Live Site URL: [Live Site](https://incredible-dragon-955a50.netlify.app/)
 
 ## My process
 
